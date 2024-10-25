@@ -1,0 +1,63 @@
+.body{
+    margin: 0px;
+}
+
+.background{
+    background-image: url(helth.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+
+.start_button{
+    margin-left: 560px;
+    margin-top: 120px;
+
+    font-size: 30px;
+    color: aliceblue;
+
+    width: 260px;
+    border-radius: 12px;
+    
+    background-color: rgba(255, 1, 1, 0.295);
+    transform: scale(1.5);
+
+
+}
+
+.start_button:hover{
+    background-color: rgb(216, 71, 71);
+}
+
+.whatecg:hover , .read:hover {
+    background-color: rgb(110, 71, 216);
+}
+
+.whatecg{
+    margin-left:560px;
+    margin-top: 50px;
+
+    font-size: 20px;
+
+    width: 260px;
+    border-radius: 12px;
+
+    background-color: rgba(12, 226, 215, 0.295);
+    color: white;
+
+}
+
+.read{
+    margin-left:560px;
+    margin-top: 50px;
+
+    font-size: 20px;
+
+    width: 260px;
+    border-radius: 12px;
+
+    background-color: rgba(12, 226, 215, 0.295);
+    color: white;
+}

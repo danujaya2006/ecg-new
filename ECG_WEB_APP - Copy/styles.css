@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: antiquewhite;
+}
+
+canvas {
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+#connectButton, #downloadButton {
+    background-color: #ec0b56; /* Green background */
+    border: none;              /* Remove borders */
+    color: rgb(255, 255, 255);              /* White text */
+    padding: 15px 32px;        /* Some padding */
+    text-align: center;        /* Centered text */
+    text-decoration: none;     /* Remove underline */
+    display: inline-block;     /* Make the link block */
+    font-size: 20px;           /* Increase font size */
+    margin: 20px 10px;         /* Add some space around the button */
+    cursor: pointer;           /* Pointer cursor on hover */
+    border-radius: 12px;       /* Rounded corners */
+    transition-duration: 0.4s; /* Animation speed */
+}
+
+#connectButton:hover, #downloadButton:hover {
+    background-color: #0278ff; /* Darker green on hover */
+    transform: scale(1.05);    /* Slightly increase size on hover */
+}
